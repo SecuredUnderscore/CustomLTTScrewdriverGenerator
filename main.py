@@ -1,3 +1,4 @@
+# Pillow library: pip install Pillow
 from enum import Enum
 from PIL import Image
 
@@ -26,6 +27,6 @@ def start(directioncolor, ringcolor, handlecolor, bitselectorcolor):
     newscrewdriver.save("GENERATEDSCREWDRIVER.png")
 
 
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    # Set parameters here
     start(directioncolor=Colors.LIGHTBLUE, ringcolor=Colors.PINK, handlecolor=Colors.LIGHTBLUE, bitselectorcolor=Colors.BLACK)
